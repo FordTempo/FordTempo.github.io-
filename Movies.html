@@ -1,0 +1,191 @@
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/Design.css"/>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #004F9E;
+    }
+
+    .topnav a {
+        float: left;
+        color: #DDC685;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family:Impact;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .topnav a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    .topnav-right {
+        float: right;
+    }
+    .title{
+        font-size:50px;
+        text-align: center;
+    }
+    .Banner img{
+        width:100%;
+    }
+    
+    .example1{
+        text-align:center;
+    }
+    .example1 img{
+width:50%;
+    }
+    
+    .example2 img{
+width:50%;
+    }
+    .example3 img{
+width:50%;
+    }
+        .example4 img{
+width:50%;
+    }
+    
+    .example5 img{
+width:50%;
+    }
+    .example6 img{
+width:50%;
+    }
+    
+    .Final{
+        font-size:50px;
+        text-align: center;
+    }
+     @media (max-width: 767px) {
+        
+        .title .Final{
+        font-size:50px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <div class="topnav">
+
+        <div class="topnav-right">
+            <a href="index.html">Home</a>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="idCategories" style="color:#DDC685">Projects</a>
+            <ul class="dropdown-menu" style="background-color: #004F9E;">
+                <li><a class="dropdown-item" id="cat1" href="Design.html" style="color:#DDC685">Design</a></li>
+                <li><a class="dropdown-item" id="cat2" href="App.html" style="color:#DDC685">App</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--
+    <div class="Banner">
+    <div class="text-center">
+     <img src="Portfolio/images/WebsiteBanner2.png" alt="AppBanner" title="Banner"/><br>
+     </div>
+    </div>
+    -->
+    <div class="Title">
+     <b>Website Design</b>
+    </div>
+    
+     <div class="example1"/>
+    <div style="display:inline-block;vertical-align:top;">
+                <h3 style="font-weight: bold">Registration/Log In</h3>
+        <img src="Portfolio/AppWebpages/RegistrationPage.png" alt="Registration" />
+    </div>
+    <div style="display:inline-block;">
+        </br>
+        <p>Before a User can see the Movielist, they will have to register a account</p>
+            <p>This is the required details to register a account</p>
+            <p>Upon Successful registration, they will be prompted to login</p>
+    <img src="Portfolio/AppWebpages/LoginPage.png" alt="Login" />
+    <img src="Portfolio/AppWebpages/usernameDatabase.png" alt="Login" />
+    <p>Once logged in, the username will be fetched from the SQL Database and displayed</p>
+        <hr>
+    </div>
+      <div class="example3"/>
+    <div style="display:inline-block;vertical-align:top;">
+        <h3 style="font-weight: bold">Profile</h3>
+        <img src="Portfolio/AppWebpages/Profile.png" alt="Profile" />
+            <img src="Portfolio/AppWebpages/usernameDatabase.png" alt="UsernameDatabase" />
+    </div>
+    <div style="display:inline-block;">
+        </br>
+        <p>After the User Log In, the Navigation bar will change to show the "Profile", "Movie List", "Add Review" and "Logout" Pages</p>
+            <p>When the user clicks the "Profile" Page, a short description of the user will be taken and displayed from the Username Database</p>
+        <hr>
+    </div>
+     <div class="example4"/>
+    <div style="display:inline-block;vertical-align:top;">
+        <h3 style="font-weight: bold">MovieList</h3>
+        <img src="Portfolio/AppWebpages/MovieList(No Search).png" alt="Registration" />
+    </div>
+    <div style="display:inline-block;">
+        </br>
+        <p>After a user is directed to the Movie List page, they have the option of searching for a movie</p>
+            <p>They have to type in the Movie's TItle</p>
+    <img src="Portfolio/AppWebpages/MovieList(Search).png" alt="Login" />
+    <img src="Portfolio/AppWebpages/MovieDatabase.png" alt="Login" />
+                <p>A Database will be scanned and if successful will show the movie being searched</p>
+        <hr>
+    </div>
+     <div class="example5"/>
+    <div style="display:inline-block;vertical-align:top;">
+        <h3 style="font-weight: bold">Description</h3>
+        <img src="Portfolio/AppWebpages/MovieList(No Search).png" alt="Registration" />
+    </div>
+    <div style="display:inline-block;">
+        </br>
+        <p>Once you choose the movie, you will be redirected to a page of the movie's description</p>
+            <p>the description is taken from the database</p>
+    <img src="Portfolio/AppWebpages/MovieDesc.png" alt="MovieListDesc" />
+    <img src="Portfolio/AppWebpages/MovieDatabase.png" alt="MovieDatabase" />
+        <hr>
+    </div>
+     <div class="example6"/>
+    <div style="display:inline-block;vertical-align:top;">
+        <h3 style="font-weight: bold">Movie Reviews</h3>
+        <img src="Portfolio/AppWebpages/MovieReview(PreUpdate).png" alt="MovieReviewPre" />
+        <img src="Portfolio/AppWebpages/ReviewDatabase(PreUpdate).png" alt="ReviewDatabasePre" />
+    </div>
+    <div style="display:inline-block;">
+        </br>
+        <p>After the user has seen the description, the user can proceed to the page where it will list reviews</p>
+            <p>the reviews are for the specific Movie according to the Movie Id</p>
+            <p>In this example, the Movie Id for John Wick is 1</p>
+     <img src="Portfolio/AppWebpages/AddReview.png" alt="AddReview" />
+     <p>From the Navigation Bar, the user can add a review to the specific movie by the "Add Review" Butoon</p>
+      <img src="Portfolio/AppWebpages/MovieReview(PostUpdate).png" alt="MovieReviewPost" />
+      <img src="Portfolio/AppWebpages/ReviewDatabase(PostUpdate).png" alt="ReviewDatabasePost" />
+      <p>After doing so the New Review will be added into the Database and be shown in the Movie Reviews</p>
+      <p>The User will then have the option to either delete or Edit the Movie's Review</p>
+        <hr>
+    </div>
+          <div class="example6"/>
+    <div style="display:inline-block;vertical-align:top;">
+        <h3 style="font-weight: bold">Logout</h3>
+        <img src="Portfolio/AppWebpages/LoginPrompt.png" alt="LoginPrompt" />
+    </div>
+    <div style="display:inline-block;">
+        </br>
+        <p>The Final Page is the "Logout" page, after the user clicks it, a prompt will tell the user if they want to confirm to logout</p>
+        <p>Once they do, they will be redirected to the Login Page and the Navigation Bar will return to only show the "Registration" , "Login" and "Movie List" Page</p>
+        <hr>
+    </div>
